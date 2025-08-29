@@ -1,0 +1,13 @@
+(loop)
+@1
+D=M
+@2
+M=M+D
+@0
+M=M-1
+D=M
+@loop
+D;JGT
+(end)
+@end
+D;JMP
